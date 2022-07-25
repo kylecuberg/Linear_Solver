@@ -1,4 +1,4 @@
-# Python Template Project
+# Python Linear Algebra Solver
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Flake8 Status](./reports/flake8/badge.svg)](./reports/flake8/index.html)
@@ -12,11 +12,9 @@
 [![Python](https://img.shields.io/pypi/pyversions/cookiecutter-hypermodern-python-instance)](https://www.python.org/downloads/release/python-3100/)
 
 ## About
-This project is to create a base template and include some common commands in the docs/Resources.md to allow utilization of this project as a baseline for future projects.
-
 This project is intended to meet the requirements of PEP-518 and PEP-621, removing the setup.py file and having only minor use of setup.cfg (intended at this time only for flake8 support)
 
 ## Contents
-- [Python Template Project](#python-template-project)
+- [Python Linear Algebra Solver](#python-linear-algebra-solver)
   - [About](#about)
   - [Contents](#contents)

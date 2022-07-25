@@ -11,21 +11,18 @@ requires = ['setuptools >= 40.6.0', 'wheel']
 build-backend = 'setuptools.build_meta'
 
 [project]
-name = 'PyTemplate'
+name = 'LinearSolver'
 version = '0.1.0'
-description = 'Intentionally left blank'
+description = 'Simple linear solver'
 requires-python = '>=3.7'
 license = {file = "LICENSE.txt"}
 keywords = ['Python']
-authors = [{email = 'kylekaptbone@yahoo.com'},{name = 'Kyle Patterson'}]
+authors = [{email = 'kyle.patterson@cuberg.net'},{name = 'Kyle Patterson'}]
 classifiers = ['Programming Language :: Python']
 dynamic = ['readme']
-
+dependencies = ['pandas', 'numpy']
 [tool.setuptools.dynamic]
 readme = {file = ['README.md']}
-
-[dependencies]
-python = '^3.10'
 
 [project.optional-dependencies]
 dev = [
